@@ -692,7 +692,7 @@
 						<Anchors>
 							<Anchor point="LEFT" relativeTo="GroupCalendarDay36" relativePoint="RIGHT">
 								<Offset>
-									<AbsDimension x="30" y="-15"/>
+									<AbsDimension x="20" y="-15"/>
 								</Offset>
 							</Anchor>
 						</Anchors>
@@ -959,12 +959,12 @@
 					
 					<Button name="GroupCalendarConnectChannelButton" inherits="UIPanelButtonTemplate" text="GroupCalendar_cConnectChannel">
 						<Size>
-							<AbsDimension x="135" y="21"/>
+							<AbsDimension x="150" y="21"/>
 						</Size>
 						<Anchors>
 							<Anchor point="BOTTOMLEFT">
 								<Offset>
-									<AbsDimension x="34" y="45"/>
+									<AbsDimension x="24" y="45"/>
 								</Offset>
 							</Anchor>
 						</Anchors>
@@ -978,12 +978,12 @@
 					
 					<Button name="GroupCalendarApplyChannelButton" inherits="UIPanelButtonTemplate" text="GroupCalendar_cApplyChannelChanges">
 						<Size>
-							<AbsDimension x="135" y="21"/>
+							<AbsDimension x="150" y="21"/>
 						</Size>
 						<Anchors>
 							<Anchor point="BOTTOMRIGHT">
 								<Offset>
-									<AbsDimension x="-26" y="45"/>
+									<AbsDimension x="-16" y="45"/>
 								</Offset>
 							</Anchor>
 						</Anchors>
@@ -1315,12 +1315,24 @@
 								</Anchor>
 							</Anchors>
 						</FontString>
+						<FontString name="GroupCalendarRussianTranslation" text="GroupCalendar_cRussianTranslation" inherits="GameFontHighlightSmall">
+							<Size>
+								<AbsDimension x="310" y="11"/>
+							</Size>
+							<Anchors>
+								<Anchor point="BOTTOM" relativeTo="GroupCalendarFrenchTranslation" relativePoint="TOP">
+									<Offset>
+										<AbsDimension x="0" y="4"/>
+									</Offset>
+								</Anchor>
+							</Anchors>
+						</FontString>
 						<FontString name="GroupCalendarSpecialThanksTitle" text="GroupCalendar_cSpecialThanksTitle" inherits="GameFontNormal">
 							<Size>
 								<AbsDimension x="310"/>
 							</Size>
 							<Anchors>
-								<Anchor point="TOP" relativeTo="GroupCalendarFrenchTranslation" relativePoint="TOP">
+								<Anchor point="TOP" relativeTo="GroupCalendarRussianTranslation" relativePoint="TOP">
 									<Offset>
 										<AbsDimension x="0" y="65"/>
 									</Offset>

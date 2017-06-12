@@ -23,7 +23,7 @@
 					<Anchors>
 						<Anchor point="BOTTOMLEFT">
 							<Offset>
-								<AbsDimension x="36" y="4"/>
+								<AbsDimension x="40" y="4"/>
 							</Offset>
 						</Anchor>
 					</Anchors>
@@ -55,7 +55,7 @@
 				<Anchors>
 					<Anchor point="BOTTOMLEFT" relativeTo="$parentMin" relativePoint="BOTTOMRIGHT">
 						<Offset>
-							<AbsDimension x="15" y="0"/>
+							<AbsDimension x="20" y="0"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -82,7 +82,7 @@
 			<Layer level="ARTWORK">
 				<Texture name="$parentFrameHeader" file="Interface\DialogFrame\UI-DialogBox-Header">
 					<Size>
-						<AbsDimension x="400" y="64"/>
+						<AbsDimension x="460" y="64"/>
 					</Size>
 					<Anchors>
 						<Anchor point="TOP">
@@ -162,7 +162,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="$parentPriority" relativePoint="BOTTOMLEFT">
 						<Offset>
-							<AbsDimension x="80" y="-15"/>
+							<AbsDimension x="60" y="-15"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -254,7 +254,7 @@
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="$parentDruid">
 						<Offset>
-							<AbsDimension x="170" y="0"/>
+							<AbsDimension x="200" y="0"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -343,7 +343,7 @@
 							<Anchors>
 								<Anchor point="TOPRIGHT" relativeTo="$parentTitle">
 									<Offset>
-										<AbsDimension x="0" y="-30"/>
+										<AbsDimension x="-2" y="-30"/>
 									</Offset>
 								</Anchor>
 							</Anchors>

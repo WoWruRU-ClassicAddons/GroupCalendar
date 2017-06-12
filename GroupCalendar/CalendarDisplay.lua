@@ -399,7 +399,7 @@ function Calendar_GetFormattedDateString(pDate, pFormat)
 	local	vDate =
 			{
 				dow = GroupCalendar_cDayOfWeekNames[Calendar_GetDayOfWeekFromDate(pDate) + 1],
-				month = GroupCalendar_cMonthNames[vMonth],
+				month = GroupCalendar_cMonthNamesMinimap[vMonth],
 				monthNum = vMonth,
 				day = vDay,
 				year = vYear,

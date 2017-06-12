@@ -21,6 +21,7 @@ GroupCalendar_cSaturday = "Saturday";
 GroupCalendar_cSelfWillAttend = "%s will attend";
 
 GroupCalendar_cMonthNames = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"};
+GroupCalendar_cMonthNamesMinimap = GroupCalendar_cMonthNames;
 GroupCalendar_cDayOfWeekNames = {GroupCalendar_cSunday, GroupCalendar_cMonday, GroupCalendar_cTuesday, GroupCalendar_cWednesday, GroupCalendar_cThursday, GroupCalendar_cFriday, GroupCalendar_cSaturday};
 
 GroupCalendar_cLoadMessage = "Group Calendar loaded.  Use /calendar to view the calendar";
@@ -302,9 +303,9 @@ GroupCalendar_cSingularHourPluralMinutes = "%d hour %d minutes";
 GroupCalendar_cPluralHourPluralMinutes = "%d hours %d minutes";
 
 if string.sub(GetLocale(), -2) == "US" then
-	GroupCalendar_cLongDateFormat = "$month $day, $year";
-	GroupCalendar_cShortDateFormat = "$monthNum/$day";
-	GroupCalendar_cLongDateFormatWithDayOfWeek = "$dow $month $day, $year";
+	GroupCalendar_cLongDateFormat = "$day. $month $year";
+	GroupCalendar_cShortDateFormat = "$day.$monthNum";
+	GroupCalendar_cLongDateFormatWithDayOfWeek = "$dow $day. $month $year";
 else
 	GroupCalendar_cLongDateFormat = "$day. $month $year";
 	GroupCalendar_cShortDateFormat = "$day.$monthNum";

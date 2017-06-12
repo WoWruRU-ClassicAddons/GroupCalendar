@@ -898,7 +898,7 @@
 							<Anchors>
 								<Anchor point="TOPLEFT">
 									<Offset>
-										<AbsDimension x="140" y="-7"/>
+										<AbsDimension x="160" y="-7"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
@@ -910,7 +910,7 @@
 							<Anchors>
 								<Anchor point="TOPLEFT">
 									<Offset>
-										<AbsDimension x="140" y="-29"/>
+										<AbsDimension x="160" y="-29"/>
 									</Offset>
 								</Anchor>
 							</Anchors>
@@ -920,7 +920,7 @@
 				<Frames>
 					<Button name="$parentAutoSelect" inherits="CalendarSmallButtonTemplate" text="GroupCalendar_cAutoSelectButtonTitle">
 						<Size>
-							<AbsDimension x="120" y="21"/>
+							<AbsDimension x="140" y="21"/>
 						</Size>
 						<Anchors>
 							<Anchor point="TOPLEFT">
@@ -937,7 +937,7 @@
 					</Button>
 					<Button name="$parentInvite" inherits="CalendarSmallButtonTemplate" text="GroupCalendar_cInviteButtonTitle">
 						<Size>
-							<AbsDimension x="120" y="21"/>
+							<AbsDimension x="140" y="21"/>
 						</Size>
 						<Anchors>
 							<Anchor point="TOPLEFT" relativeTo="$parentAutoSelect" relativePoint="BOTTOMLEFT">

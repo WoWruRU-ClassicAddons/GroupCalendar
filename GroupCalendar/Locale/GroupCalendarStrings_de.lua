@@ -20,6 +20,7 @@
     GroupCalendar_cSelfWillAttend = "%s wird teilnehmen";
 
     GroupCalendar_cMonthNames = {"Januar", "Februar", "M\195\164rz", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"};
+    GroupCalendar_cMonthNamesMinimap = GroupCalendar_cMonthNames;
 	GroupCalendar_cDayOfWeekNames = {GroupCalendar_cSunday, GroupCalendar_cMonday, GroupCalendar_cTuesday, GroupCalendar_cWednesday, GroupCalendar_cThursday, GroupCalendar_cFriday, GroupCalendar_cSaturday};
     
     GroupCalendar_cLoadMessage = "GroupCalendar geladen. Gib /calendar zur Anzeige ein";

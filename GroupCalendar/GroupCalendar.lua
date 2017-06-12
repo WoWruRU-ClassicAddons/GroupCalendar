@@ -35,6 +35,7 @@ function GroupCalendar_OnLoad()
 	SlashCmdList["CALENDAR"] = GroupCalendar_ExecuteCommand;
 	
 	SLASH_CALENDAR1 = "/calendar";
+	SLASH_CALENDAR2 = "/cld";
 	
 	tinsert(UISpecialFrames, "GroupCalendarFrame");
 	

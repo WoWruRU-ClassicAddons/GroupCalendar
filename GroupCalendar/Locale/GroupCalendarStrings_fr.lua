@@ -20,6 +20,7 @@ if GetLocale() == "frFR" then
 	GroupCalendar_cSelfWillAttend = "%s sera pr\195\169sent";
 
 	GroupCalendar_cMonthNames = {"Janvier", "Fevrier", "Mars", "Avril", "Mai", "Juin", "Juillet", "Aout", "Septembre", "Octobre", "Novembre", "Decembre"};
+    GroupCalendar_cMonthNamesMinimap = GroupCalendar_cMonthNames;
 	GroupCalendar_cDayOfWeekNames = {GroupCalendar_cSunday, GroupCalendar_cMonday, GroupCalendar_cTuesday, GroupCalendar_cWednesday, GroupCalendar_cThursday, GroupCalendar_cFriday, GroupCalendar_cSaturday};
 
 	GroupCalendar_cLoadMessage = "GroupCalendar charg\195\169. Taper /calendar pour afficher le calendrier";

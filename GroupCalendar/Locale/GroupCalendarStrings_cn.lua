@@ -25,6 +25,7 @@ if GetLocale() == "zhCN" then
 	GroupCalendar_cSelfWillAttend = "%s会出席";
 
 	GroupCalendar_cMonthNames = {"1月", "2月", "3月", "4月", "5月", "6月", "7月", "8月", "9月", "10月", "11月", "12月"};
+	GroupCalendar_cMonthNamesMinimap = GroupCalendar_cMonthNames;
 	GroupCalendar_cDayOfWeekNames = {GroupCalendar_cSunday, GroupCalendar_cMonday, GroupCalendar_cTuesday, GroupCalendar_cWednesday, GroupCalendar_cThursday, GroupCalendar_cFriday, GroupCalendar_cSaturday};
 
 	GroupCalendar_cLoadMessage = "团体行事历已载入。使用 /calendar 来浏览行事历";

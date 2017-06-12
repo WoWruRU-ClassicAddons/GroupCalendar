@@ -225,12 +225,10 @@ gGroupCalendar_ClassInfoByClassCode =
 
 gGroupCalendar_RaceNamesByRaceCode =
 {
-	A = {name = GroupCalendar_cDraeneiRaceName, faction="Alliance"},
 	D = {name = GroupCalendar_cDwarfRaceName, faction="Alliance"},
 	G = {name = GroupCalendar_cGnomeRaceName, faction="Alliance"},
 	H = {name = GroupCalendar_cHumanRaceName, faction="Alliance"},
 	N = {name = GroupCalendar_cNightElfRaceName, faction="Alliance"},
-	B = {name = GroupCalendar_cBloodElfRaceName, faction="Horde"},
 	O = {name = GroupCalendar_cOrcRaceName, faction="Horde"},
 	T = {name = GroupCalendar_cTaurenRaceName, faction="Horde"},
 	R = {name = GroupCalendar_cTrollRaceName, faction="Horde"},

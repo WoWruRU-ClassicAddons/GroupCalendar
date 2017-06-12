@@ -1,15 +1,15 @@
 ## Interface: 11200
 ## Notes: Group event calendar
-## OptionalDeps: 
-## RequiredDeps: 
+## Notes-ruRU: Групповой календарь событий
 ## SavedVariables: gGroupCalendar_Settings, gGroupCalendar_Database
 
-GroupCalendarStrings.lua
-GroupCalendarStrings_fr.lua
-GroupCalendarStrings_de.lua
-GroupCalendarStrings_tw.lua
-GroupCalendarStrings_cn.lua
-GroupCalendarStrings_kr.lua
+Locale\GroupCalendarStrings.lua
+Locale\GroupCalendarStrings_fr.lua
+Locale\GroupCalendarStrings_ru.lua
+Locale\GroupCalendarStrings_de.lua
+Locale\GroupCalendarStrings_tw.lua
+Locale\GroupCalendarStrings_cn.lua
+Locale\GroupCalendarStrings_kr.lua
 
 GroupCalendarTemplates.xml
 GroupCalendarMenus.xml
